@@ -17,7 +17,7 @@ def add(firstNumber, secondNumber){
 }
 
 // Multiplication Method
-def multiply((firstNumber, secondNumber)){
+def multiply(firstNumber, secondNumber){
     // Logical Code
    return firstNumber*secondNumber
 }
