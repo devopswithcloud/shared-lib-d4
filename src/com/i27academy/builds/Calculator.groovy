@@ -7,7 +7,7 @@ class Calculator {
     Calculator(jenkins) {
         this.jenkins = jenkins
     }
-}
+
 
 
 // Addition Method
@@ -20,6 +20,7 @@ def add(firstNumber, secondNumber){
 def multiply((firstNumber, secondNumber)){
     // Logical Code
    return firstNumber*secondNumber
+}
 }
 
 // Sub Method
