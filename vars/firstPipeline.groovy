@@ -6,7 +6,7 @@ def call(Map pipelineparams){
     // An instance of the class called calculator is created
     Calculator calculator = new Calculator(this)
 
-    Pipeline {
+    pipeline {
         agent any 
         environment {
             APP_NAME = ${pipelineparams.appName}// this value should be coming from microservices 
@@ -29,4 +29,3 @@ def call(Map pipelineparams){
         }
     }
 }
-
