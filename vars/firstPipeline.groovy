@@ -9,7 +9,7 @@ def call(Map pipelineparams){
     pipeline {
         agent any 
         environment {
-            APP_NAME = ${pipelineparams.appName}// this value should be coming from microservices 
+            APP_NAME = "${pipelineparams.appName}" // this value should be coming from microservices 
         }
         stages {
             stage('AdditionStage') {
